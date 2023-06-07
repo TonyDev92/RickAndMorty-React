@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "rickmorty";
+  src: url("../public/assets/fonts/get_schwifty.ttf") format("truetype");
+}/*# sourceMappingURL=index.css.map */

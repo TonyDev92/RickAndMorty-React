@@ -1,0 +1,30 @@
+.home {
+  width: 100%;
+  height: 100%;
+  background:  #356627;
+  &__back{  
+    top: 50px;
+    left: 50px;
+    position: absolute;
+    color: black;
+    font-family: "rickmorty";
+    text-shadow:0 0 5px #9eff15,
+    0 0 10px #d1ff0e,
+    0 0 40px #d1ff0e,
+    0 0 60px  #ebff08;
+
+  }
+  &__back__title {
+    font-family: "rickmorty";
+    text-align: center;
+    padding: 10px;
+    font-size: 100px;
+    color:#9EFF15 ;
+    text-shadow:0 0 5px #9eff15,
+                    0 0 10px #d1ff0e,
+                    0 0 40px #d1ff0e,
+                    0 0 60px  #ebff08;
+  }
+}
+
+

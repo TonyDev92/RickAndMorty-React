@@ -1,0 +1,42 @@
+.slash {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../../../public/assets/home.png);
+  background-size: cover;
+}
+.slash__title {
+  width: 100vw;
+  height: 30vw;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slash__title__in {
+  font-family: "rickmorty";
+  color: #03B4F0;
+  text-shadow: 0 0 5px #03576A, 0 0 10px #9EFF15, 0 0 40px #9EFF15, 0 0 60px #9EFF15;
+}
+.slash__cont {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 30%;
+}
+.slash__cont__btn {
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 20px;
+  margin: 2rem;
+  font-family: "rickmorty";
+  font-size: x-large;
+  border-color: #356627;
+  color: #EBFF08;
+  background: linear-gradient(to left top, #D1FF0E, #356627);
+}
+.slash__cont__btn:hover {
+  color: #356627;
+  background: linear-gradient(to left top, #D1FF0E, #9EFF15);
+}/*# sourceMappingURL=SlashPage.css.map */
